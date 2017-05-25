@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="MySQL - news@localhost" uuid="e06fcf0b-2405-4f44-834b-51e0102a847f">
+    <data-source source="LOCAL" name="dataSource" uuid="8adaf47e-43fe-4589-9644-630a0a06ba24">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/src/main/resources/spring-hibernate.xml</remarks>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/news</jdbc-url>
       <driver-properties>

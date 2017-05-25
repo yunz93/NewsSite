@@ -20,7 +20,7 @@
                 <li id='class_month'>
                     <!-- 循环显示主题列表 -->
                     <s:iterator id="topic" value="#request.topicList">
-                    <a href="index?newsinfo.topic.id=${topic.id}"><b>${topic.name}</b></a>
+                        <a href="index?newsinfo.topic.id=${topic.id}"><b>${topic.name}</b></a>
                     </s:iterator>
             </ul>
             <ul class="classlist">

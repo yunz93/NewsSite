@@ -5,27 +5,105 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-    <constant name="struts.i18n.encoding" value="GBK"></constant>
+    <constant name="struts.i18n.encoding" value="GBK" />
 
     <package name="default" extends="struts-default">
+        <!--主页-->
         <action name="index" class="newsinfoAction" method="index">
             <result name="index">index.jsp</result>
         </action>
 
+        <!--主页边栏-->
         <action name="indexsidebar" class="newsinfoAction" method="indexsidebar">
             <result name="index_sidebar">
                 index-elements/index_sidebar.jsp
             </result>
         </action>
+
+        <!--转到新闻内容页-->
         <action name="newsread" class="newsinfoAction" method="newsread">
             <result name="news_read">
                 /news_read.jsp
             </result>
         </action>
 
+        <!--重定向到主页-->
         <action name="*" class="adminAction" method="{1}">
             <result name="index" type="redirectAction">
                 index
+            </result>
+        </action>
+
+        <!--显示新闻管理主页-->
+        <action name="admin" class="newsinfoAction" method="admin">
+            <result name="admin">
+                newspages/admin.jsp
+            </result>
+        </action>
+
+        <!--转到新闻添加页-->
+        <action name="toNewsAdd" class="newsinfoAction" method="toNewsAdd">
+            <result name="news_add">newspages/news_add.jsp</result>
+        </action>
+
+        <!--执行新闻添加，重定向到新闻管理主页-->
+        <action name="doNewsAdd" class="newsinfoAction" method="doNewsAdd">
+            <result name="admin" type="redirectAction">
+                admin
+            </result>
+        </action>
+
+        <!--转到新闻修改页-->
+        <action name="toNewsModify" class="newsinfoAction" method="toNewsModify">
+            <result name="news_modify">newspages/news_modify.jsp</result>
+        </action>
+
+        <!--执行新闻添加，重定向到新闻管理主页-->
+        <action name="doNewsModify" class="newsinfoAction" method="doNewsModify">
+            <result name="admin" type="redirectAction">
+                admin
+            </result>
+        </action>
+
+        <!--执行新闻删除，重定向到新闻管理主页-->
+        <action name="deleteNews" class="newsinfoAction" method="deleteNews">
+            <result name="admin" type="redirectAction">
+                admin
+            </result>
+        </action>
+
+        <!--添加主题-->
+        <action name="addTopic" class="topicAction" method="addtopic">
+            <result name="admin" type="redirectAction">
+                admin
+            </result>
+        </action>
+
+        <!--主题列表页-->
+        <action name="topiclist" class="topicAction" method="topiclist">
+            <result name="topic_list">
+                newspages/topic_list.jsp
+            </result>
+        </action>
+
+        <!--显示主题修改页-->
+        <action name="toTopicModify" class="topicAction" method="toTopicModify">
+            <result name="topic_modify">
+                newspages/topic_modify.jsp
+            </result>
+        </action>
+
+        <!--执行主题修改，转向主题列表页-->
+        <action name="doTopicModify" class="topicAction" method="doTopicModify">
+            <result name="topiclist" type="redirectAction">
+                topiclist
+            </result>
+        </action>
+
+        <!--执行主题删除，转向主题列表页-->
+        <action name="deletetopic" class="topicAction" method="deletetopic">
+            <result name="topiclist" type="redirectAction">
+                topiclist
             </result>
         </action>
     </package>

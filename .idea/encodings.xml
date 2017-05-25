@@ -19,6 +19,9 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/entity/Pager.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/entity/Topic.hbm.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/entity/Topic.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/com.yunz.entity/Admin.hbm.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/com.yunz.entity/Newsinfo.hbm.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/com.yunz.entity/Topic.hbm.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/jdbc.properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/log4j.properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/spring-hibernate.xml" charset="UTF-8" />
@@ -28,5 +31,6 @@
     <file url="file://$PROJECT_DIR$/src/main/webapp/index-elements/index_sidebar.jsp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/index-elements/index_top.jsp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/news_read.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/newspages" charset="GBK" />
   </component>
 </project>
