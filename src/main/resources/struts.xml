@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <constant name="struts.i18n.encoding" value="GBK"></constant>
+
+    <package name="default" extends="struts-default">
+        <action name="index" class="newsinfoAction" method="index">
+            <result name="index">index.jsp</result>
+        </action>
+
+        <action name="indexsidebar" class="newsinfoAction" method="indexsidebar">
+            <result name="index_sidebar">
+                index-elements/index_sidebar.jsp
+            </result>
+        </action>
+        <action name="newsread" class="newsinfoAction" method="newsread">
+            <result name="news_read">
+                /news_read.jsp
+            </result>
+        </action>
+
+        <action name="*" class="adminAction" method="{1}">
+            <result name="index" type="redirectAction">
+                index
+            </result>
+        </action>
+    </package>
+</struts>
+
