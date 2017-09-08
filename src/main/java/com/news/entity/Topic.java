@@ -1,10 +1,10 @@
-package com.yunz.entity;
+package com.news.entity;
 
 import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Topic entity
+ * Topic entity. @author MyEclipse Persistence Tools
  */
 
 public class Topic implements java.io.Serializable {

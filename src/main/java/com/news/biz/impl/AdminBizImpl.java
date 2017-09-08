@@ -1,10 +1,10 @@
-package com.yunz.biz.impl;
+package com.news.biz.impl;
 
 import java.util.List;
 
-import com.yunz.biz.AdminBiz;
-import com.yunz.dao.AdminDAO;
-import com.yunz.entity.Admin;
+import com.news.biz.AdminBiz;
+import com.news.dao.AdminDAO;
+import com.news.entity.Admin;
 
 public class AdminBizImpl implements AdminBiz {
 

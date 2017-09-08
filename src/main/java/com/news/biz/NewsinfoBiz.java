@@ -1,10 +1,10 @@
-package com.yunz.biz;
+package com.news.biz;
 
 import java.util.List;
 
-import com.yunz.entity.Newsinfo;
-import com.yunz.entity.Pager;
-import com.yunz.entity.Topic;
+import com.news.entity.Newsinfo;
+import com.news.entity.Pager;
+import com.news.entity.Topic;
 
 
 public interface NewsinfoBiz {

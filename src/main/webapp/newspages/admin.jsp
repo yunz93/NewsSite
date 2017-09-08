@@ -10,7 +10,7 @@
 <div id="main">
   <jsp:include page="console_element/left.html" />
   <div id="opt_area">    
-   <s:form ation="admin" method="post" theme="simple">
+   <s:form action="admin" method="post" theme="simple">
 	   主题：<s:select name="newsinfo.topic.id" list="#request.topicList" listKey="id" listValue="name" cssClass="opt_input" />
          &nbsp;&nbsp; &nbsp;新闻标题：<s:textfield name="newsinfo.title" />
 	   <s:submit value="查询" />

@@ -1,7 +1,7 @@
-package com.yunz.entity;
+package com.news.entity;
 
 /**
- * Admin entity
+ * Admin entity. @author MyEclipse Persistence Tools
  */
 
 public class Admin implements java.io.Serializable {

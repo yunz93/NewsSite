@@ -1,8 +1,8 @@
-package com.yunz.biz;
+package com.news.biz;
 
 import java.util.List;
 
-import com.yunz.entity.Topic;
+import com.news.entity.Topic;
 
 public interface TopicBiz {
 	/*//获取所有一级标题

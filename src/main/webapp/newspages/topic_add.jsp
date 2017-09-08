@@ -17,7 +17,7 @@
   <jsp:include page="console_element/left.html" />
   <div id="opt_area">
     <h1 id="opt_type"> 添加主题： </h1>
-    <s:form action="addTopic" method="post" onsubmit="return check()">
+    <s:form action="addtopic" method="post" onsubmit="return check()">
       <p>
         <s:textfield label="主题名称" id="name" name="topic.name" cssClass="opt_input" />
       </p>

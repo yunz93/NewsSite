@@ -1,4 +1,4 @@
-package com.yunz.dao.impl;
+package com.news.dao.impl;
 
 import java.util.List;
 import org.hibernate.Criteria;
@@ -7,8 +7,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.criterion.MatchMode;
 import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
-import com.yunz.dao.NewsinfoDAO;
-import com.yunz.entity.Newsinfo;
+import com.news.dao.NewsinfoDAO;
+import com.news.entity.Newsinfo;
 
 public class NewsinfoDAOImpl implements NewsinfoDAO {
 

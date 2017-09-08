@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/news" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/action/AdminAction.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/action/TopicAction.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/biz/AdminBiz.java" charset="GBK" />
@@ -12,12 +13,9 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/dao/NewsinfoDAO.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/dao/TopicDAO.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/dao/impl" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/entity/Admin.hbm.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/entity/Admin.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/entity/Newsinfo.hbm.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/entity/Newsinfo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/entity/Pager.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/entity/Topic.hbm.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/yunz/entity/Topic.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/com.yunz.entity/Admin.hbm.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/com.yunz.entity/Newsinfo.hbm.xml" charset="GBK" />

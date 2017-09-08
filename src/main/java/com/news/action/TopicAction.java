@@ -1,10 +1,10 @@
-package com.yunz.action;
+package com.news.action;
 
 import java.util.List;
 import java.util.Map;
 import org.apache.struts2.interceptor.RequestAware;
-import com.yunz.biz.TopicBiz;
-import com.yunz.entity.Topic;
+import com.news.biz.TopicBiz;
+import com.news.entity.Topic;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class TopicAction extends ActionSupport implements RequestAware {

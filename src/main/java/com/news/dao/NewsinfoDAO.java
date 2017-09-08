@@ -1,7 +1,7 @@
-package com.yunz.dao;
+package com.news.dao;
 
 import java.util.List;
-import com.yunz.entity.Newsinfo;
+import com.news.entity.Newsinfo;
 
 public interface NewsinfoDAO {		
 	

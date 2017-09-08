@@ -1,4 +1,4 @@
-package com.yunz.dao.impl;
+package com.news.dao.impl;
 
 import java.util.List;
 import org.hibernate.Criteria;
@@ -6,8 +6,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
 
-import com.yunz.dao.TopicDAO;
-import com.yunz.entity.Topic;
+import com.news.dao.TopicDAO;
+import com.news.entity.Topic;
 
 public class TopicDAOImpl implements TopicDAO {
 

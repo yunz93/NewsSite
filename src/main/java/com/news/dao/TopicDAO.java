@@ -1,9 +1,9 @@
-package com.yunz.dao;
+package com.news.dao;
 
 import java.util.List;
 import java.util.Map;
 
-import com.yunz.entity.Topic;
+import com.news.entity.Topic;
 
 
 public interface TopicDAO {

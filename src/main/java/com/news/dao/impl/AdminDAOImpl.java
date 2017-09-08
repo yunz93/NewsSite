@@ -1,4 +1,4 @@
-package com.yunz.dao.impl;
+package com.news.dao.impl;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Example;
 
-import com.yunz.dao.AdminDAO;
-import com.yunz.entity.Admin;
+import com.news.dao.AdminDAO;
+import com.news.entity.Admin;
 
 public class AdminDAOImpl implements AdminDAO {
 	

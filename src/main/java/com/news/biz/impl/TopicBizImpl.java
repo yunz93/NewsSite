@@ -1,9 +1,9 @@
-package com.yunz.biz.impl;
+package com.news.biz.impl;
 
 import java.util.List;
-import com.yunz.biz.TopicBiz;
-import com.yunz.dao.TopicDAO;
-import com.yunz.entity.Topic;
+import com.news.biz.TopicBiz;
+import com.news.dao.TopicDAO;
+import com.news.entity.Topic;
 
 public class TopicBizImpl implements TopicBiz {
 

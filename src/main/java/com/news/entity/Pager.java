@@ -1,4 +1,4 @@
-package com.yunz.entity;
+package com.news.entity;
 
 public class Pager {
 	private int curPage;//´ıÏÔÊ¾Ò³

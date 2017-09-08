@@ -1,9 +1,9 @@
-package com.yunz.entity;
+package com.news.entity;
 
 import java.util.Date;
 
 /**
- * Newsinfo entity
+ * Newsinfo entity. @author MyEclipse Persistence Tools
  */
 
 public class Newsinfo implements java.io.Serializable {

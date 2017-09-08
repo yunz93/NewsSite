@@ -1,10 +1,10 @@
-package com.yunz.biz.impl;
+package com.news.biz.impl;
 
 import java.util.List;
-import com.yunz.entity.Newsinfo;
-import com.yunz.entity.Pager;
-import com.yunz.biz.NewsinfoBiz;
-import com.yunz.dao.NewsinfoDAO;
+import com.news.entity.Newsinfo;
+import com.news.entity.Pager;
+import com.news.biz.NewsinfoBiz;
+import com.news.dao.NewsinfoDAO;
 
 public class NewsinfoBizImpl implements NewsinfoBiz {
 
